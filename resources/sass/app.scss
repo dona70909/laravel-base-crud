@@ -1,4 +1,53 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+/* cards */
+main {
+    padding: 2rem;
+    .cards-wrapper {
+        gap: 1rem 1rem;
+        justify-content: center;
+        
+        .card {
+            img {
+                height: 200px;
+                padding: .5rem;
+            }
+        }
+    }
+}
 
+/* card */
+main {
+    .my-card {
+        img {
+            width: 500px;
+            height: 400px;
+            margin-bottom: 1rem;
+        }
+        
+    }
+}
+
+/* form */
+main {
+    form {
+        .form-group {
+            margin-bottom: 1rem;
+            label {
+                margin-bottom: .5rem;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+header {
+    nav {
+        h1 {
+            font-size: 2rem;
+        }
+    }
+}

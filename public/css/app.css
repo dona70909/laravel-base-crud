@@ -11281,3 +11281,37 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/* cards */
+main {
+  padding: 2rem;
+}
+main .cards-wrapper {
+  gap: 1rem 1rem;
+  justify-content: center;
+}
+main .cards-wrapper .card img {
+  height: 200px;
+  padding: 0.5rem;
+}
+
+/* card */
+main .my-card img {
+  width: 500px;
+  height: 400px;
+  margin-bottom: 1rem;
+}
+
+/* form */
+main form .form-group {
+  margin-bottom: 1rem;
+}
+main form .form-group label {
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+header nav h1, header nav .h1 {
+  font-size: 2rem;
+}
