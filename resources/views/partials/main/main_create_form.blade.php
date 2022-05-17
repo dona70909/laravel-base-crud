@@ -1,7 +1,7 @@
 <section class="container-fluid">
     <div class="row">
         <div class="col-12">
-            <form action="{{route('store')}}" method="post">
+            <form action="{{route('comics.store')}}" method="post">
                 @csrf
                 <div class="form-group">
                     <label for="title">Title</label>

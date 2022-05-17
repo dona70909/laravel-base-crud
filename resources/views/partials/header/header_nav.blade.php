@@ -13,7 +13,7 @@
                             <a class="nav-link" href="{{route('comics.index')}}" > Home (all comics) <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{'comics.create'}}">Insert your comic</a>
+                            <a class="nav-link" href="{{route('comics.create')}}">Insert your comic</a>
                         </li>
                     </ul>
                 </div>
