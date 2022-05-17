@@ -2,6 +2,7 @@
     <div class="row">
         <div class="col-12">
             <form action="{{route('store')}}" method="post">
+                @csrf
                 <div class="form-group">
                     <label for="title">Title</label>
                     <input type="text" class="form-control" id="title" name="title" placeholder="Enter title">
