@@ -1,18 +1,23 @@
 <section class="container-fluid">
     <div class="row">
         <div class="col-12">
-            <ul>
-                <li>
-                    <a href="{{route('index')}}">All comics</a>
-                </li>
-                <li>
-                    <a href="{{route('show')}}">Comic</a>
-                </li>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Comics</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
 
-                <li>
-                    <a href="{{route('create')}}">Insert new content</a>
-                </li>
-            </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="{{route('index')}}" > Home (all comics) <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{'create'}}">Insert your comic</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </div>
 </section>
