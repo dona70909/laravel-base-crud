@@ -47,7 +47,7 @@ class ComicController extends Controller
         $comic->type = $request->type;
         $comic->save;
 
-        return redirect()->route('show', $comic); 
+        return redirect()->route('comics.show', $comic); 
     }
 
     /**
@@ -59,7 +59,8 @@ class ComicController extends Controller
     public function show($id)
     {
         $comic = Comic::findOrFail($id);
-        return view('guests.comic.show',compact('comic')); 
+    
+        return view('guests.comic.show',["comic" => $comic]); 
     }
 
     /**

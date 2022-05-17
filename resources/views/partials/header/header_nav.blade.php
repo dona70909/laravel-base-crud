@@ -10,10 +10,10 @@
 
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="{{route('index')}}" > Home (all comics) <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="{{route('comics.index')}}" > Home (all comics) <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{'create'}}">Insert your comic</a>
+                            <a class="nav-link" href="{{'comics.create'}}">Insert your comic</a>
                         </li>
                     </ul>
                 </div>
